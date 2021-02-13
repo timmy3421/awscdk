@@ -26,6 +26,8 @@ aws_region = "us-west-2"
 #Personal N. Virginia
 #available_vpc_id = "vpc-random23223"
 #Sandbox Oregon
+
+#Blake here is the source variable. I have seen where they __init__.py this directory. I haven't done this one yet. Is that true?
 available_vpc_id = "vpc-random23223"
 
 #N. Virginia

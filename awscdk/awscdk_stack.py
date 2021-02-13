@@ -8,5 +8,5 @@ class AwscdkStack(_core.Stack):
         super().__init__(scope, construct_id, **kwargs)
 
         # The code that defines your stack goes here
-        # Blake the example variable is available_vpc_id
+        # Blake the example variable is available_vpc_id, it is supposed to transfer to this file. 
         vpc = _ssm.StringParameter(self,"sparklepony_vpc",parameter_name="sparklepony_vpc",string_value=available_vpc_id)
