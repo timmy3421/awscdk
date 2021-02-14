@@ -21,6 +21,7 @@ setuptools.setup(
     install_requires=[
         "aws-cdk.core",
         "aws-cdk.aws_ssm",
+        'jmespath'
     ],
 
     python_requires=">=3.6",
