@@ -9,29 +9,29 @@ from pprint import pprint
 APP_ENVS = {
     "app_envs": [
         {
-            "aws_account": 1234567,
-            "stage": 'production',
-            "regions": {
-                "us-west-2": {
-                    "vpc_id": "vpc-1234"
-                }
-            }
-        },
-        {
-            "aws_account": 7890123,
-            "stage": 'staging',
-            "regions": {
-                "us-west-2": {
-                    "vpc_id": "vpc-1234"
-                }
-            }
-        },
-        {
-            "aws_account": 4567890,
+            "aws_account": 935961962045,
             "stage": 'development',
             "regions": {
                 "us-west-2": {
-                    "vpc_id": "vpc-1234"
+                    "vpc_id": "vpc-023e5e0ce603e7af0"
+                }
+            }
+        },
+        {
+            "aws_account": 974851384123,
+            "stage": 'sandbox',
+            "regions": {
+                "us-west-2": {
+                    "vpc_id": "vpc-e245849a"
+                }
+            }
+        },
+        {
+            "aws_account": 393365708829,
+            "stage": 'test',
+            "regions": {
+                "us-east-1": {
+                    "vpc_id": "vpc-6e41fd14"
                 }
             }
         }
